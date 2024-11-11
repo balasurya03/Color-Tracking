@@ -1,0 +1,10 @@
+Colour Tracking Project Using OpenCV (cv2)
+In this project, you'll use OpenCV (cv2) to detect and track a specific color in a video stream or from an image. Colour tracking can be used for various applications, such as object detection, motion tracking, or interactive systems (like controlling a robot with colored markers). The goal of this project is to capture video input, identify a certain color range, and track the object of that color in real-time.
+
+Project Overview:
+Capture video input: Either from a webcam or a video file.
+Convert to HSV color space: For more robust color detection.
+Threshold the image to create a binary mask: This will isolate the desired color range.
+Find contours: Locate the object(s) in the mask.
+Draw bounding boxes: Draw rectangles around the detected object(s) to visualize tracking.
+Track the object: Update the object's position and track its movement.
